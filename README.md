@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @BavanthaU
+- 👋 Hi, I’m Bavantha
 - 👀 I’m interested in Robotics.
 - 🌱 I’m currently working as a Doctoral Candidate at University of Twente.
 - 💞️ I’m looking to collaborate on Real Life apllications of UAVs, SLAM, Reinforcement Learning, and Autonomous Exploration. 
