@@ -1,6 +1,6 @@
 <h1 align="center">Hi, I'm Bavantha 👋</h1>
 <p align="center">
-  <em>Autonomous systems researcher · Doctoral candidate @ University of Twente</em>
+  <em>Robotics researcher & doctoral candidate @ University of Twente building autonomous systems with monocular perception, deep learning, and reinforcement learning.</em>
 </p>
 
 <p align="center">
@@ -11,13 +11,13 @@
 ---
 
 ### 👨‍🔬 About Me
-- Robotics engineer focused on autonomy, perception, and decision-making for field robots.
-- Exploring resilient UAV systems that combine SLAM, reinforcement learning, and human-aware planning.
+- Robotics researcher advancing monocular spatial perception, deep learning, and deep reinforcement learning for resilient autonomy.
+- Building autonomy stacks that rely on lightweight sensor suites—RGB cameras and IMUs—without sacrificing robustness or reliability.
 - Sharing open-source tooling, reproducible experiments, and research companions from my doctoral work.
 
 ### 🧭 What I'm Focused On Right Now
-- Building real-world UAV navigation stacks that bridge simulation-to-flight gaps.
-- Designing reinforcement learning policies that stay reliable under uncertainty.
+- Deploying monocular spatial systems like `mono_hydra` and `M2H` from lab conditions to real-world environments.
+- Designing deep reinforcement learning policies that stay reliable under uncertainty and limited sensing.
 - Contributing to collaborative robotics initiatives and student mentorship.
 
 ### 🔬 Research Spotlight
@@ -29,15 +29,10 @@
 - **mono_hydra** pushes monocular SLAM beyond geometry by layering semantic understanding, enabling agile autonomy from simple sensor rigs.
 - **M2H** delivers consistent cross-task predictions while staying real-time, outperforming single-task baselines and previous multi-task models across standard datasets.
 
-### 📂 Repository Overview
-| Theme | What you'll find | Examples |
-| --- | --- | --- |
-| **Autonomous UAV Platforms** | ROS2/ROS packages, mission planning tools, flight-ready controllers. | Hardware abstraction layers, mission planners, Gazebo/Unity sim worlds. |
-| **Perception & SLAM** | Visual-inertial odometry pipelines, mapping utilities, dataset tooling. | Multi-sensor fusion code, loop-closure experiments, map evaluation scripts. |
-| **Reinforcement Learning for Robotics** | Training frameworks, policy benchmarks, safety wrappers. | PPO/SAC baselines, curriculum learning setups, sim2real transfer studies. |
-| **Exploration & Planning** | Autonomous exploration based on DRL | Exploration heuristics, IsaacSim & IsaacLab. |
-
-> 🔎 Dive into the code: [View all repositories →](https://github.com/BavanthaU?tab=repositories)
+### 🧠 Technical Interests
+- Deep learning for spatial perception, multi-modal fusion, and cross-task representation learning.
+- Deep reinforcement learning that keeps autonomous robots reliable in uncertain, dynamic environments.
+- Monocular spatial systems like `mono_hydra` and `M2H` that turn research breakthroughs into deployable autonomy stacks.
 
 ### 🛠️ Tools & Technologies
 <p>
@@ -57,6 +52,12 @@
   <img src="https://github-readme-stats.vercel.app/api?username=BavanthaU&show_icons=true&count_private=true&theme=tokyonight" alt="GitHub stats" />
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=BavanthaU&theme=tokyonight" alt="GitHub streak" />
 </p>
+<p align="center">
+  <img src="./assets/current_year_commits.svg" alt="Commits this year" />
+</p>
+
+### 📝 Latest Work
+- <img src="https://img.shields.io/badge/IROS-2025-blue?style=flat-square" alt="IROS 2025 badge" /> **M2H: Multi-Task Learning with Efficient Window-Based Cross-Task Attention for Monocular Spatial Perception** – [Paper](https://arxiv.org/abs/2510.17363) *(International Conference on Intelligent Robots and Systems, 2025)*
 
 ### 🤝 Let's Collaborate
 - Always open to joint projects around autonomous exploration, resilient robotics, and algorithm benchmarking.
@@ -64,10 +65,6 @@
 - Follow my GitHub activity to stay updated with the latest experimental releases and robotics tooling.
 
 ---
-
-<p align="center">
-  <sup>"Autonomy that matters is autonomy that works in the field."</sup>
-</p>
 
 <!---
 BavanthaU/BavanthaU is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
