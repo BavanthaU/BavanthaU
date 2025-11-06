@@ -41,10 +41,11 @@
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
   <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++" />
   <img src="https://img.shields.io/badge/Pytorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch" />
-  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="TensorFlow" />
   <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" alt="OpenCV" />
   <img src="https://img.shields.io/badge/Gazebo-4A6DBF?style=for-the-badge&logo=ros&logoColor=white" alt="Gazebo" />
-  <img src="https://img.shields.io/badge/Unity-000000?style=for-the-badge&logo=unity&logoColor=white" alt="Unity" />
+  <img src="https://img.shields.io/badge/Isaac%20Sim-76B900?style=for-the-badge&logo=nvidia&logoColor=white" alt="Isaac Sim" />
+  <img src="https://img.shields.io/badge/Isaac%20Lab-76B900?style=for-the-badge&logo=nvidia&logoColor=white" alt="Isaac Lab" />
+  <img src="https://img.shields.io/badge/Stable--Baselines3-000000?style=for-the-badge&logo=openai&logoColor=white" alt="Stable-Baselines3" />
 </p>
 
 ### 📊 Snapshot
@@ -58,6 +59,7 @@
 
 ### 📝 Latest Work
 - <img src="https://img.shields.io/badge/IROS-2025-blue?style=flat-square" alt="IROS 2025 badge" /> **M2H: Multi-Task Learning with Efficient Window-Based Cross-Task Attention for Monocular Spatial Perception** – [Paper](https://arxiv.org/abs/2510.17363) *(International Conference on Intelligent Robots and Systems, 2025)*
+- <img src="https://img.shields.io/badge/GSW-2023-blue?style=flat-square" alt="GSW23 badge" /> **mono_hydra: Real-time 3D Scene Graph Construction from Monocular Camera Input with IMU** – [Paper](https://arxiv.org/abs/2308.05515) *(ISPRS Annals of the Photogrammetry, Remote Sensing and Spatial Information Sciences, 2023)*
 
 ### 🤝 Let's Collaborate
 - Always open to joint projects around autonomous exploration, resilient robotics, and algorithm benchmarking.
