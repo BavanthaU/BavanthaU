@@ -62,7 +62,7 @@
 - <img src="https://img.shields.io/badge/GSW-2023-blue?style=flat-square" alt="GSW23 badge" /> **mono_hydra: Real-time 3D Scene Graph Construction from Monocular Camera Input with IMU** – [Paper](https://arxiv.org/abs/2308.05515) *(ISPRS Annals of the Photogrammetry, Remote Sensing and Spatial Information Sciences, 2023)*
 
 ### 🤝 Let's Collaborate
-- Always open to joint projects around autonomous exploration, resilient robotics, and algorithm benchmarking.
+- Always open to joint projects around autonomous exploration, robust slam systems, and algorithm benchmarking.
 - Reach out via email for research collaborations, talks, or mentorship opportunities.
 - Follow my GitHub activity to stay updated with the latest experimental releases and robotics tooling.
 
