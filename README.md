@@ -51,7 +51,7 @@
 ### 📊 Snapshot
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=BavanthaU&show_icons=true&count_private=true&theme=tokyonight" alt="GitHub stats" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=BavanthaU&theme=tokyonight" alt="GitHub streak" />
+  <img src="https://streak-stats.demolab.com?user=BavanthaU&theme=tokyonight" alt="GitHub streak" />
 </p>
 <p align="center">
   <img src="./assets/current_year_commits.svg" alt="Commits this year" />
