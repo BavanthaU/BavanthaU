@@ -20,8 +20,8 @@
 ### 🧭 What I'm Focused On Right Now
 - Finalising my PhD work on real-time RGB+IMU spatial perception for drone-based indoor mapping and autonomous exploration.
 - Training reinforcement learning policies that use learned depth, semantics, and scene-graph structure to improve autonomous exploration skills.
+- Preparing `M2H-MX`, an ICRA 2026 SRRA Workshop paper on real-time multi-task dense visual perception for monocular spatial understanding.
 - Developing `Mono Hydra++`, a multi-task monocular scene-graph pipeline for real-time 3D indoor mapping.
-- Advancing `M2H`, a window-based cross-task attention network for depth, semantics, edges, and surface normals.
 
 ### 🔬 Research Spotlight
 | Project | Objective | Current focus |
@@ -29,11 +29,13 @@
 | **mono_hydra** | Real-time 3D scene graph construction from monocular camera input with IMU for robotic spatial perception and semantic mapping. | Maintaining the baseline system, packaging reproducible code, and connecting scene graphs to downstream robot autonomy tasks. |
 | **Mono Hydra++** | Real-time monocular scene graph construction with multi-task learning for 3D indoor mapping. | Manuscript under review; focused on robust RGB+IMU mapping, semantic reconstruction, and deployable scene understanding. |
 | **M2H** | Multi-task learning with efficient window-based cross-task attention for monocular spatial perception. | Predicting depth, semantic segmentation, edges, and surface normals as a shared perception backbone for monocular mapping systems. |
+| **M2H-MX** | Real-time multi-task dense visual perception for monocular spatial understanding. | Accepted at the ICRA 2026 SRRA Workshop; integrates depth and semantic prediction into an unmodified monocular SLAM pipeline for cleaner metric-semantic mapping. |
 | **Spatial RL for Exploration** | Reinforcement learning policies that use the built spatial perception stack to improve autonomous exploration under limited sensing. | Connecting scene graphs, semantic maps, and learned depth to exploration actions in simulation and robot-ready autonomy loops. |
 
 - **mono_hydra** pushes monocular SLAM beyond geometry by layering semantic understanding into a robot-ready 3D scene representation.
 - **Mono Hydra++** extends this direction with multi-task perception for denser, more consistent 3D indoor scene graphs.
 - **M2H** targets compact cross-task predictions that can support mapping, reconstruction, and spatial intelligence on lightweight robots.
+- **M2H-MX** improves dense prediction and in-the-loop mapping, including stronger NYUDv2 depth/semantic results and lower trajectory error on ScanNet.
 - **Spatial RL** is the next step: using those spatial representations to learn better exploration behaviour instead of treating perception and planning as separate problems.
 
 ### 🧠 Technical Interests
@@ -68,6 +70,7 @@
 </p>
 
 ### 📝 Latest Papers & Projects
+- <img src="https://img.shields.io/badge/ICRA%202026-SRRA%20Workshop-006D77?style=flat-square" alt="ICRA 2026 SRRA Workshop badge" /> **M2H-MX: Multi-Task Dense Visual Perception for Real-Time Monocular Spatial Understanding** – [Paper](https://doi.org/10.48550/arXiv.2603.29236) *(Accepted, ICRA 2026 SRRA Workshop)*
 - <img src="https://img.shields.io/badge/Under%20Review-2026-006D77?style=flat-square" alt="Under review 2026 badge" /> **Mono Hydra++: Real-Time Monocular Scene Graph Construction with Multi-Task Learning for 3D Indoor Mapping** – manuscript under review.
 - <img src="https://img.shields.io/badge/IROS-2025-blue?style=flat-square" alt="IROS 2025 badge" /> **M2H: Multi-Task Learning with Efficient Window-Based Cross-Task Attention for Monocular Spatial Perception** – [Paper](https://arxiv.org/abs/2510.17363) *(International Conference on Intelligent Robots and Systems, 2025)*
 - <img src="https://img.shields.io/badge/ISPRS-2023-blue?style=flat-square" alt="ISPRS 2023 badge" /> **mono_hydra: Real-Time 3D Scene Graph Construction from Monocular Camera Input with IMU** – [Paper](https://arxiv.org/abs/2308.05515) *(ISPRS Annals of the Photogrammetry, Remote Sensing and Spatial Information Sciences, 2023)*
