@@ -1,38 +1,46 @@
 <h1 align="center">Hi, I'm Bavantha 👋</h1>
 <p align="center">
-  <em>Robotics researcher & doctoral candidate @ University of Twente building autonomous systems with monocular perception, deep learning, and reinforcement learning.</em>
+  <em>Robotics perception engineer & doctoral candidate @ University of Twente building real-time RGB+IMU spatial perception, SLAM/VIO, 3D scene understanding, and reinforcement learning for autonomous exploration.</em>
 </p>
 
 <p align="center">
-  <a href="mailto:bavanthaU@eng.pdn.ac.lk"><img src="https://img.shields.io/badge/Email-bavanthaU%40eng.pdn.ac.lk-blue?style=for-the-badge" alt="Email Bavantha"></a>
   <a href="mailto:b.udugama@utwente.nl"><img src="https://img.shields.io/badge/Academic%20Email-b.udugama%40utwente.nl-orange?style=for-the-badge" alt="Email Bavantha"></a>
+  <a href="mailto:bu052@live.mdx.ac.uk"><img src="https://img.shields.io/badge/Email-bu052%40live.mdx.ac.uk-blue?style=for-the-badge" alt="Email Bavantha"></a>
+  <a href="https://www.linkedin.com/in/bavantha-udugama/"><img src="https://img.shields.io/badge/LinkedIn-Bavantha%20Udugama-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Bavantha Udugama"></a>
 </p>
 
 ---
 
 ### 👨‍🔬 About Me
-- Robotics researcher advancing monocular spatial perception, deep learning, and deep reinforcement learning for resilient autonomy.
-- Building autonomy stacks that rely on lightweight sensor suites—RGB cameras and IMUs—without sacrificing robustness or reliability.
-- Sharing open-source tooling, reproducible experiments, and research companions from my doctoral work.
+- Robotics researcher advancing monocular spatial perception, SLAM/VIO, metric-semantic mapping, 3D scene graph construction, and reinforcement learning for lightweight autonomous robots.
+- Building perception stacks that rely on practical sensor suites—RGB cameras and IMUs—while preserving real-time mapping and scene-understanding capability.
+- Using these spatial representations as policy inputs for robots that can explore, reason about unknown environments, and make better navigation decisions.
+- Sharing open-source tooling, reproducible experiments, and research companions from my doctoral work at the University of Twente.
 
 ### 🧭 What I'm Focused On Right Now
-- Deploying monocular spatial systems like `mono_hydra` and `M2H` from lab conditions to real-world environments.
-- Designing deep reinforcement learning policies that stay reliable under uncertainty and limited sensing.
-- Contributing to collaborative robotics initiatives and student mentorship.
+- Finalising my PhD work on real-time RGB+IMU spatial perception for drone-based indoor mapping and autonomous exploration.
+- Training reinforcement learning policies that use learned depth, semantics, and scene-graph structure to improve autonomous exploration skills.
+- Developing `Mono Hydra++`, a multi-task monocular scene-graph pipeline for real-time 3D indoor mapping.
+- Advancing `M2H`, a window-based cross-task attention network for depth, semantics, edges, and surface normals.
 
 ### 🔬 Research Spotlight
 | Project | Objective | Current focus |
 | --- | --- | --- |
-| **mono_hydra** | Real-time monocular spatial perception system that fuses a camera and IMU to build 3D scene graphs with sub-20 cm error at 15 fps on laptop GPUs. | Extending from indoor pilots to outdoor scenarios, tightening the SLAM-to-scene-graph loop, and packaging a reproducible release for the robotics community. |
-| **M2H (Multi-tasking Network)** | Lightweight ViT (DINOv2) multi-task framework predicting semantics, depth, edges, and normals via window-based cross-task attention. | Optimising edge deployments, broadening benchmarks (NYUDv2, Hypersim, Cityscapes), and serving as the perception backbone for mono_hydra. |
+| **mono_hydra** | Real-time 3D scene graph construction from monocular camera input with IMU for robotic spatial perception and semantic mapping. | Maintaining the baseline system, packaging reproducible code, and connecting scene graphs to downstream robot autonomy tasks. |
+| **Mono Hydra++** | Real-time monocular scene graph construction with multi-task learning for 3D indoor mapping. | Manuscript under review; focused on robust RGB+IMU mapping, semantic reconstruction, and deployable scene understanding. |
+| **M2H** | Multi-task learning with efficient window-based cross-task attention for monocular spatial perception. | Predicting depth, semantic segmentation, edges, and surface normals as a shared perception backbone for monocular mapping systems. |
+| **Spatial RL for Exploration** | Reinforcement learning policies that use the built spatial perception stack to improve autonomous exploration under limited sensing. | Connecting scene graphs, semantic maps, and learned depth to exploration actions in simulation and robot-ready autonomy loops. |
 
-- **mono_hydra** pushes monocular SLAM beyond geometry by layering semantic understanding, enabling agile autonomy from simple sensor rigs.
-- **M2H** delivers consistent cross-task predictions while staying real-time, outperforming single-task baselines and previous multi-task models across standard datasets.
+- **mono_hydra** pushes monocular SLAM beyond geometry by layering semantic understanding into a robot-ready 3D scene representation.
+- **Mono Hydra++** extends this direction with multi-task perception for denser, more consistent 3D indoor scene graphs.
+- **M2H** targets compact cross-task predictions that can support mapping, reconstruction, and spatial intelligence on lightweight robots.
+- **Spatial RL** is the next step: using those spatial representations to learn better exploration behaviour instead of treating perception and planning as separate problems.
 
 ### 🧠 Technical Interests
 - Deep learning for spatial perception, multi-modal fusion, and cross-task representation learning.
-- Deep reinforcement learning that keeps autonomous robots reliable in uncertain, dynamic environments.
-- Monocular spatial systems like `mono_hydra` and `M2H` that turn research breakthroughs into deployable autonomy stacks.
+- SLAM/VIO, metric-semantic mapping, 3D reconstruction, and scene graph construction for robot autonomy.
+- Reinforcement learning for autonomous exploration, navigation, and decision-making with learned spatial representations.
+- Monocular spatial systems like `mono_hydra`, `Mono Hydra++`, and `M2H` that turn research prototypes into deployable autonomy stacks.
 
 ### 🛠️ Tools & Technologies
 <p>
@@ -40,11 +48,13 @@
   <img src="https://img.shields.io/badge/ROS2-0A1E5A?style=for-the-badge&logo=ros&logoColor=white" alt="ROS2" />
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
   <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++" />
-  <img src="https://img.shields.io/badge/Pytorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch" />
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch" />
   <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" alt="OpenCV" />
+  <img src="https://img.shields.io/badge/ONNX%20Runtime-005CED?style=for-the-badge&logo=onnx&logoColor=white" alt="ONNX Runtime" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
   <img src="https://img.shields.io/badge/Gazebo-4A6DBF?style=for-the-badge&logo=ros&logoColor=white" alt="Gazebo" />
   <img src="https://img.shields.io/badge/Isaac%20Sim-76B900?style=for-the-badge&logo=nvidia&logoColor=white" alt="Isaac Sim" />
-  <img src="https://img.shields.io/badge/Isaac%20Lab-76B900?style=for-the-badge&logo=nvidia&logoColor=white" alt="Isaac Lab" />
   <img src="https://img.shields.io/badge/Stable--Baselines3-000000?style=for-the-badge&logo=openai&logoColor=white" alt="Stable-Baselines3" />
 </p>
 
@@ -57,12 +67,13 @@
   <img src="./assets/current_year_commits.svg" alt="Commits this year" />
 </p>
 
-### 📝 Latest Work
+### 📝 Latest Papers & Projects
+- <img src="https://img.shields.io/badge/Under%20Review-2026-006D77?style=flat-square" alt="Under review 2026 badge" /> **Mono Hydra++: Real-Time Monocular Scene Graph Construction with Multi-Task Learning for 3D Indoor Mapping** – manuscript under review.
 - <img src="https://img.shields.io/badge/IROS-2025-blue?style=flat-square" alt="IROS 2025 badge" /> **M2H: Multi-Task Learning with Efficient Window-Based Cross-Task Attention for Monocular Spatial Perception** – [Paper](https://arxiv.org/abs/2510.17363) *(International Conference on Intelligent Robots and Systems, 2025)*
-- <img src="https://img.shields.io/badge/GSW-2023-blue?style=flat-square" alt="GSW23 badge" /> **mono_hydra: Real-time 3D Scene Graph Construction from Monocular Camera Input with IMU** – [Paper](https://arxiv.org/abs/2308.05515) *(ISPRS Annals of the Photogrammetry, Remote Sensing and Spatial Information Sciences, 2023)*
+- <img src="https://img.shields.io/badge/ISPRS-2023-blue?style=flat-square" alt="ISPRS 2023 badge" /> **mono_hydra: Real-Time 3D Scene Graph Construction from Monocular Camera Input with IMU** – [Paper](https://arxiv.org/abs/2308.05515) *(ISPRS Annals of the Photogrammetry, Remote Sensing and Spatial Information Sciences, 2023)*
 
 ### 🤝 Let's Collaborate
-- Always open to joint projects around autonomous exploration, robust slam systems, and algorithm benchmarking.
+- Always open to joint projects around autonomous exploration, robust SLAM systems, spatial perception, reinforcement learning, and algorithm benchmarking.
 - Reach out via email for research collaborations, talks, or mentorship opportunities.
 - Follow my GitHub activity to stay updated with the latest experimental releases and robotics tooling.
 
