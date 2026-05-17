@@ -21,7 +21,7 @@
 - Training reinforcement learning policies that use learned depth, semantics, metric-semantic maps, and scene-graph structure to improve autonomous exploration skills.
 - Connecting the spatial perception systems from my PhD work to robot decision-making for exploration under limited sensing.
 - Developing `Mono Hydra++`, a multi-task monocular scene-graph pipeline for real-time 3D indoor mapping.
-- Preparing `M2H-MX`, an ICRA 2026 SRRA Workshop paper on real-time multi-task dense visual perception for monocular spatial understanding.
+- Extending `M2H-MX`, an ICRA 2026 SRRA Workshop accepted system for real-time multi-task dense visual perception and monocular spatial understanding.
 
 ### 🔬 Research Spotlight
 | Project | Objective | Current focus |
