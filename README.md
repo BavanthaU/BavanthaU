@@ -25,6 +25,28 @@
 | **M2H** | Cross-task attention for depth, semantics, edges, and surface normals. | IROS 2025 |
 | **mono_hydra** | Real-time 3D scene graphs from monocular camera + IMU. | ISPRS 2023 |
 
+### ⭐ Highlighted Repositories
+<p align="center">
+  <a href="https://github.com/BavanthaU/mono-hydra-pp">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=BavanthaU&repo=mono-hydra-pp&theme=tokyonight&hide_border=true" alt="Pinned repository card for BavanthaU/mono-hydra-pp" />
+  </a>
+</p>
+
+<table>
+  <tr>
+    <td>
+      <h3><a href="https://github.com/BavanthaU/mono-hydra-pp">mono-hydra-pp</a></h3>
+      <p><strong>Mono Hydra++</strong> is my highlighted research codebase for monocular scene-graph construction with multi-task perception for 3D indoor mapping.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Focus-3D%20Scene%20Graphs-006D77?style=flat-square" alt="3D scene graphs focus badge" />
+        <img src="https://img.shields.io/badge/Input-Monocular%20RGB%2BIMU-00599C?style=flat-square" alt="Monocular RGB and IMU input badge" />
+        <img src="https://img.shields.io/badge/Stack-ROS%20%7C%20SLAM%20%7C%20Perception-22314E?style=flat-square" alt="ROS SLAM perception stack badge" />
+        <a href="https://github.com/BavanthaU/mono-hydra-pp"><img src="https://img.shields.io/badge/View-Repository-181717?style=flat-square&logo=github&logoColor=white" alt="View mono-hydra-pp repository badge" /></a>
+      </p>
+    </td>
+  </tr>
+</table>
+
 ### 🛠️ Tools & Technologies
 <p>
   <img src="https://img.shields.io/badge/ROS-22314E?style=for-the-badge&logo=ros&logoColor=white" alt="ROS" />
